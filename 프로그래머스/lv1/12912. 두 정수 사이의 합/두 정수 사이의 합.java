@@ -5,12 +5,10 @@ class Solution {
             for (int i = a; i <= b; i++){
                 answer += i;
             }
-        }else if(a > b){
+        }else{
             for (int i = b; i <= a; i++){
                 answer += i;
             }
-        }else{
-            answer = a;
         }
         return answer;
     }
