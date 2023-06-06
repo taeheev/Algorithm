@@ -8,7 +8,8 @@ class Solution {
         }
         
         int[] answer = new int[arr];
-        for (int i = 0, j = 0; i < answer.length; i++){
+        int j = 0;
+        for (int i = 0; i < answer.length; i++){
             answer[i] = num_list[j];
             j += n;
         }
